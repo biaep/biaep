@@ -12,7 +12,7 @@ def vender_produto(estoque, indice_produto, quantidade):
 def adicionar_produto(estoque, indice_produto, quantidade):
     estoque[indice_produto] += quantidade
 
-# Função para exibir o estoque atual (sem usar enumerate)
+# Função para exibir o estoque atual
 def exibir_estoque(estoque):
     print("Estoque atual:")
     for i in range(len(estoque)):
@@ -25,3 +25,4 @@ adicionar_produto(estoque, 4, 10) # adiciona 10 unidades ao produto 5
 
 # Exibe o estoque atualizado
 exibir_estoque(estoque)
+
